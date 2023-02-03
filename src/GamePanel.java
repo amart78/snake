@@ -148,11 +148,6 @@ public class GamePanel extends JPanel implements ActionListener {
         setVisible(false);
         new GameFrame();
     }
-//    public void dispose() {
-//        JFrame parent = (JFrame) this.getTopLevelAncestor();
-//        parent.dispose();
-//    }
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if(running){
